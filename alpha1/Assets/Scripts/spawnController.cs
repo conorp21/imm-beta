@@ -42,7 +42,7 @@ public class spawnController : MonoBehaviour
     void StartNextWave()
     {
         currentWave++;
-        enemiesPerWave = 5 * currentWave; // Change the multiplier to increase enemy count per wave
+        enemiesPerWave = 1 * currentWave; // Change the multiplier to increase enemy count per wave
         SpawnWave();
     }
 
